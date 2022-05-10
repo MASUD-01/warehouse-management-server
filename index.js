@@ -46,7 +46,7 @@ async function run() {
             const updatedDoc = {
                 $set: {
 
-                    quantity: updatedProduct.quantity
+                    qty: updatedProduct.quantity
 
                 }
             };
